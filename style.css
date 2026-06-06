@@ -55,3 +55,12 @@ transform: translate(-50%, -50%);
     z-index: 2;
 
 }
+.grapefruit {
+    position: absolute;
+    width: 300px;
+
+    left: 7%;
+    top: 200px;
+
+    z-index: 3;
+}
