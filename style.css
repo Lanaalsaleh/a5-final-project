@@ -37,6 +37,20 @@ h1 {
     width: 700px;
   
 }
+.water {
+    position: absolute;
+    width: 1500px;
+    transform: scaleX(1.5);
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 0;
+    opacity: 0.7;
+}
+
 .flower {
     
     position: absolute;
