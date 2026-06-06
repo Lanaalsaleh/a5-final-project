@@ -40,6 +40,7 @@ h1 {
     width: 700px;
   
 }
+/* added this floating liquid to add a visuals  */
 .water {
     position: absolute;
     width: 1500px;
@@ -73,9 +74,11 @@ transform: translate(-50%, -50%);
     transition: transform 0.4s ease;
 
 }
+/* i made the can hover when the mouse goes on it just to add an effect */
 .can:hover {
     transform: rotate(10deg) scale(1.05);
 }
+ 
 .grapefruit {
     position: absolute;
     width: 300px;
@@ -85,6 +88,7 @@ transform: translate(-50%, -50%);
 
     z-index: 3;
 }
+/* this is where the information for the product will be displayed in a box on the right */
 .product-container {
     display: flex;
     justify-content: center;
