@@ -70,7 +70,11 @@ transform: translate(-50%, -50%);
     width: 750px;
     
     z-index: 2;
+    transition: transform 0.4s ease;
 
+}
+.can:hover {
+    transform: rotate(10deg) scale(1.05);
 }
 .grapefruit {
     position: absolute;
