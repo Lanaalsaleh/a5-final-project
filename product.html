@@ -36,9 +36,19 @@
 
             <h2>WHERE TO SHOP</h2>
 
-            <button class="shop-btn">FIND A STORE</button>
+            <button class="shop-btn" onclick="showStores()">FIND A STORE</button>
+
+<div id="stores" style="display:none; margin-top:20px;">
+    <p><a href="https://www.walmart.ca" target="_blank">Walmart</a></p>
+    <p><a href="https://www.foodbasics.ca" target="_blank">Food Basics</a></p>
+</div>
         </div>
     </div>
+    <script>
+function showStores() {
+    document.getElementById("stores").style.display = "block";
+}
+</script>
 </body>
 
 
